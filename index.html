@@ -11,7 +11,7 @@
         <div class="header">
             <div class="search">
                 <img class="searchIcon" src="./images/magnify.svg">
-                <form>
+                <form class="searchInput">
                     <label for="search"></label>
                     <input type="text" id="search" name="search" />
                 </form>
@@ -24,9 +24,11 @@
             </div>
 
             <div class="userInfo">
-                <img class="cartoonProfile" src="./images/icons8-bt21-chimmy.svg">
-                <h4>Hi there,</h4>
-                <h2>Morgan Oakley (@morgan)</h2>
+                <img class="cartoonProfileInUserInfo" src="./images/icons8-bt21-chimmy.svg">
+                <div class="userInfotext">
+                    <h4>Hi there,</h4>
+                    <h2>Morgan Oakley (@morgan)</h2>
+                </div>
             </div>
 
             <div class="buttons">
@@ -93,101 +95,130 @@
         </div>
 
         <div class="mainContent">
-            <div class="yourProjectSection">
+            <div class="yourProjectHeading">
                 <h3>Your Projects</h3>
+            </div>
 
-                <div class="cardOne">
+            <div class="yourProjectSection">
+                <div class="yourProjectSectionCards">
                     <h3>Super Cool Project</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque assumenda ad doloremque aliquid dicta? Inventore.</p>
-                    <img class="starIcon" src="./images/star-plus-outline.svg">
-                    <img class="eyeIcon" src="./images/eye-plus.svg">
-                    <img class="forkIcon" src="./images/source-fork.svg">
+                    <div class="cardIcons">
+                        <img class="starIcon" src="./images/star-plus-outline.svg">
+                        <img class="eyeIcon" src="./images/eye-plus.svg">
+                        <img class="forkIcon" src="./images/source-fork.svg">
+                    </div>
                 </div>
 
-                <div class="cardTwo">
-                    <h3>Super Cool Project</h3>
+                <div class="yourProjectSectionCards">
+                    <h3>less Cool Project</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla quod qui, dolorum voluptatibus nisi.</p>
-                    <img class="starIcon" src="./images/star-plus-outline.svg">
-                    <img class="eyeIcon" src="./images/eye-plus.svg">
-                    <img class="forkIcon" src="./images/source-fork.svg">
+                    <div class="cardIcons">
+                        <img class="starIcon" src="./images/star-plus-outline.svg">
+                        <img class="eyeIcon" src="./images/eye-plus.svg">
+                        <img class="forkIcon" src="./images/source-fork.svg">
+                    </div>
                 </div>
 
-                <div class="cardThree">
-                    <h3>Super Cool Project</h3>
+                <div class="yourProjectSectionCards">
+                    <h3>Impossible App</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quis quisquam laborum aut dolorum fuga!</p>
-                    <img class="starIcon" src="./images/star-plus-outline.svg">
-                    <img class="eyeIcon" src="./images/eye-plus.svg">
-                    <img class="forkIcon" src="./images/source-fork.svg">
+                    <div class="cardIcons">
+                        <img class="starIcon" src="./images/star-plus-outline.svg">
+                        <img class="eyeIcon" src="./images/eye-plus.svg">
+                        <img class="forkIcon" src="./images/source-fork.svg">
+                    </div>
                 </div>
 
-                <div class="cardFour">
-                    <h3>Super Cool Project</h3>
+                <div class="yourProjectSectionCards">
+                    <h3>easy Peasy App</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem quasi voluptate explicabo. Ducimus, numquam!</p>
-                    <img class="starIcon" src="./images/star-plus-outline.svg">
-                    <img class="eyeIcon" src="./images/eye-plus.svg">
-                    <img class="forkIcon" src="./images/source-fork.svg">
+                    <div class="cardIcons">
+                        <img class="starIcon" src="./images/star-plus-outline.svg">
+                        <img class="eyeIcon" src="./images/eye-plus.svg">
+                        <img class="forkIcon" src="./images/source-fork.svg">
+                    </div>
                 </div>
 
-                <div class="cardFive">
-                    <h3>Super Cool Project</h3>
+                <div class="yourProjectSectionCards lastRowSection">
+                    <h3>Ad Blocker</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae sint quis laboriosam, libero pariatur dolor!.</p>
-                    <img class="starIcon" src="./images/star-plus-outline.svg">
-                    <img class="eyeIcon" src="./images/eye-plus.svg">
-                    <img class="forkIcon" src="./images/source-fork.svg">
+                    <div class="cardIcons">
+                        <img class="starIcon" src="./images/star-plus-outline.svg">
+                        <img class="eyeIcon" src="./images/eye-plus.svg">
+                        <img class="forkIcon" src="./images/source-fork.svg">
+                    </div>
                 </div>
 
-                <div class="cardSix">
-                    <h3>Super Cool Project</h3>
+                <div class="yourProjectSectionCards lastRowSection">
+                    <h3>Money Maker</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt corporis magnam aliquid libero asperiores.</p>
-                    <img class="starIcon" src="./images/star-plus-outline.svg">
-                    <img class="eyeIcon" src="./images/eye-plus.svg">
-                    <img class="forkIcon" src="./images/source-fork.svg">
+                    <div class="cardIcons">
+                        <img class="starIcon" src="./images/star-plus-outline.svg">
+                        <img class="eyeIcon" src="./images/eye-plus.svg">
+                        <img class="forkIcon" src="./images/source-fork.svg">
+                    </div>
                 </div>
             </div>
 
+            <div class="announcementHeading">
+                <h3>Announcements</h3>
+            </div>
+
             <div class="annoucementSection">
-                <div class="annoucementSection1">
+                <div class="annoucementSectionContents">
                     <h3>Site maintenance</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, iure atque.</p>
                     <hr>
                 </div>
 
-                <div class="annoucementSection2">
+                <div class="annoucementSectionContents">
                     <h3>Community Share Day</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, in eligendi!</p>
                     <hr>
                 </div>
 
-                <div class="annoucementSection3">
+                <div class="annoucementSectionContents">
                     <h3>Updated Privacy Policy</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, debitis ad!</p>
-                    <hr>
                 </div>
             </div>
 
+            <div class="trendingHeader">
+                <h3>Trending</h3>
+            </div>
+
             <div class="trendingSection">
-                <div class="trendingSection1">
+                <div class="trendingSectionContents">
                     <img class="sonicIcon" src="./images/icons8-sonic-the-hedgehog.svg">
-                    <p>@tegan</p>
-                    <p>World Peace Builder</p>
+                    <div class="trendingUSerInfo">
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
                 </div>
 
-                <div class="trendingSection2">
+                <div class="trendingSectionContents">
                     <img class="cartooonIcon" src="./images/icons8-cartoon.svg">
-                    <p>@tegan</p>
-                    <p>World Peace Builder</p>
+                    <div class="trendingUSerInfo">
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
                 </div>
 
-                <div class="trendingSection3">
+                <div class="trendingSectionContents">
                     <img class="dogIcon" src="./images/icons8-santas-little-helper.svg">
-                    <p>@tegan</p>
-                    <p>World Peace Builder</p>
+                    <div class="trendingUSerInfo">
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
                 </div>
 
-                <div class="trendingSection4">
+                <div class="trendingSectionContents">
                     <img class="tomIcon" src="./images/icons8-tom.svg">
-                    <p>@tegan</p>
-                    <p>World Peace Builder</p>
+                    <div class="trendingUSerInfo">
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
                 </div>
             </div>
         </div>
